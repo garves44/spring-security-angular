@@ -46,6 +46,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<!-- <configuration>
+					<mainClass>com.example.springsecurityangular</mainClass>
+				</configuration> -->
 			</plugin>
 
 			<plugin>
@@ -67,9 +70,7 @@
 						<goals>
 							<goal>npm</goal>
 						</goals>
-						<configuration>
-							<arguments>run-script build</arguments>
-						</configuration>
+
 					</execution>
 				</executions>
 			</plugin>
